@@ -2,7 +2,6 @@ image:
     file: gitpod.dockerfile
 task:
     - init: . ${GITPOD_REPO_ROOT}/gitpod.tasks.sh
-
 ports:
     - port: 80
     - port: 8000
