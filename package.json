@@ -1,0 +1,15 @@
+{
+  "name": "gitpod.ubuntu.node.liteserver",
+  "version": "0.0.1",
+  "author": "@mia",
+  "license": "MIT",
+  "description": "gitpod.docker: ubuntu,node | lite-server",
+  "private": true,
+  "scripts": {
+    "lite_server" : "lite-server",
+    "start": "npm run lite_server"
+  },
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
